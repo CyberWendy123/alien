@@ -5,7 +5,7 @@ Understandably while it does hand hold me through out the entire process, it has
 
 Obstacles I had to Face: 
 -	Pygame does not work for the homebrew version of Python3; must download from the original python site. 
--	Little bugs due to spelling situations (easy fix) 
+-	Little bugs due to spelling situations \n (easy fix) 
 -	Currently: self.font = pygame.font.SysFont(None, 15) - freezes the game 
 
 Based on the alien project from Python Crash Course BK 
