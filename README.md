@@ -6,6 +6,6 @@ Understandably while it does hand hold me through out the entire process, it has
 Obstacles I had to Face: 
 -	Pygame does not work for the homebrew version of Python3; must download from the original python site. 
 -	Little bugs due to spelling situations (easy fixes) 
--	Currently: self.font = pygame.font.SysFont(None, 15) - freezes the game 
+-	self.font = pygame.font.SysFont(None, 15) - freezes the game if pygame is not properly configured. There was a bug in pygame via the sysfont.py file where it pointed to a dead font list and I had to go in and change it to point to the correct front list. Took three hrs (Aug 26) but it has been done. (now points to /Library/Font/font-list) 
 
 Based on the alien project from Python Crash Course BK 
